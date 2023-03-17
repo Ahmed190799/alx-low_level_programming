@@ -1,10 +1,11 @@
 #include <unistd.h>
+#include <stdio.h>
 /**
  * main - prints to stanard error
  * Return: 1 (success)
  */
 int main(void)
 {
-	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 58);
+	fputs("and that piece of art is useful\" - Dora Korpar, 2015-10-19", stderr);
 	return (1);
 }
