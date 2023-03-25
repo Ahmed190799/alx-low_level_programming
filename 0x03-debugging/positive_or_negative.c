@@ -11,3 +11,4 @@ void positive_or_negative(int i)
 	else
 		printf("%d is zero\n", i);
 }
+
